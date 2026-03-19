@@ -6,3 +6,7 @@ Hamburgarbröd
 Pommesfrites
 Tomat
 Lök
+Hamburgardressing
+Babyspenat
+Ketchup
+Senap
