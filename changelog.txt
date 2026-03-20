@@ -1,0 +1,11 @@
+v1.0.0 (2026-03-20) ADDED - Detta är första versionen av filen, den är tom men med den här
+versionen så läggs filen till. Därav v1.0.0
+
+v1.1.0 (2026-03-20) ADDED - Här har det lagts till flera ingridienser, därav en ny version
+
+v1.1.1 (2026-03-20) FIXED - Här har jag rättat till titeln inuti recept.txt, därav en ny (x.x.1)
+som en patch.
+
+v1.1.2 (2026-03-20) CHANGED - Filens byter namn. Ännu en patch som ökar med (x.x.1)
+
+v1.2.0 (2026-03-20) ADDED - Lägger till flera ingridienser, så detta är en ny version.
