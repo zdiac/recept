@@ -1,0 +1,6 @@
+1. Gjorde ett nytt recept (fryspizza.txt) och la till instruktioner. 
+2. Comittade (5b8ee15).
+3. Ersatte jag alla instruktioner i fryspizza.txt med massa random text
+4. Comittade (eb07019).
+5. Skrev: git reset --hard eb07019
+6. Alla mina instruktioner i fryspizza.txt blev återställda
