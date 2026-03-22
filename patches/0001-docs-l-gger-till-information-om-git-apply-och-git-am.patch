@@ -1,0 +1,38 @@
+From 6b48d000e1eafe91b6eff6db2332998c2aad9844 Mon Sep 17 00:00:00 2001
+From: Elias <endzish@gmail.com>
+Date: Sun, 22 Mar 2026 12:51:42 +0100
+Subject: [PATCH] =?UTF-8?q?docs:=20l=C3=A4gger=20till=20information=20om?=
+ =?UTF-8?q?=20git=20apply=20och=20git=20am=20i=20NOTER.txt?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+---
+ NOTER.txt | 11 +++++++++++
+ 1 file changed, 11 insertions(+)
+
+diff --git a/NOTER.txt b/NOTER.txt
+index 0d637df..af1087c 100644
+--- a/NOTER.txt
++++ b/NOTER.txt
+@@ -1,6 +1,17 @@
++Hur och varför jag återställde en commit.
++
+ 1. Gjorde ett nytt recept (fryspizza.txt) och la till instruktioner. 
+ 2. Comittade (5b8ee15).
+ 3. Ersatte jag alla instruktioner i fryspizza.txt med massa random text
+ 4. Comittade (eb07019).
+ 5. Skrev: git reset --hard eb07019
+ 6. Alla mina instruktioner i fryspizza.txt blev återställda
++
++
++(NEDANSTÅENDE HAR JAG ÅTERSKAPAT MED EN PATCHFIL, jag skrev detta, gjorde git add, gjorde git commit, tog bort allt, återskapade med hjälp av git am patches/namnpåpatchfil.patch)
++
++Vad skillnaden är mellan "git am" och "git apply".
++
++- git apply patches/namnpåpatchfil.patch applicerar ändringarna som finns i patchfilen men skapar ingen "git add" eller "git commit", du måste själva göra detta.
++
++- git am patches/namnpåpatchfil.patch (applicerar ändringarna som finns i patchfilen, gör en git add, tar med patchfilens commitmeddelande och metadata, gör en ny commit)
+-- 
+2.43.0
+
