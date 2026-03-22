@@ -1,6 +1,17 @@
+Hur och varför jag återställde en commit.
+
 1. Gjorde ett nytt recept (fryspizza.txt) och la till instruktioner. 
 2. Comittade (5b8ee15).
 3. Ersatte jag alla instruktioner i fryspizza.txt med massa random text
 4. Comittade (eb07019).
 5. Skrev: git reset --hard eb07019
 6. Alla mina instruktioner i fryspizza.txt blev återställda
+
+
+(NEDANSTÅENDE HAR JAG ÅTERSKAPAT MED EN PATCHFIL, jag skrev detta, gjorde git add, gjorde git commit, tog bort allt, återskapade med hjälp av git am patches/namnpåpatchfil.patch)
+
+Vad skillnaden är mellan "git am" och "git apply".
+
+- git apply patches/namnpåpatchfil.patch applicerar ändringarna som finns i patchfilen men skapar ingen "git add" eller "git commit", du måste själva göra detta.
+
+- git am patches/namnpåpatchfil.patch (applicerar ändringarna som finns i patchfilen, gör en git add, tar med patchfilens commitmeddelande och metadata, gör en ny commit)
