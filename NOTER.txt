@@ -9,7 +9,7 @@ Hur och varför jag återställde en commit.
 
 
 (NEDANSTÅENDE HAR JAG ÅTERSKAPAT MED EN PATCHFIL, jag skrev detta, gjorde git add, gjorde git commit, tog bort allt, återskapade med hjälp av git am patches/namnpåpatchfil.patch)
-Jag råkade ta bort en commit för mycket med "git reset --hard HEAD~1", detta gjorde att även min patchfil försvann. Jag lyckedes göra en ny patchfil från rflog eftersom commiten som patchfilen representerade låg kvar där. Jag gjorde detta  med git format-patch -1 6b48d00 -o patches/ efter att ja gjort "mkdir patches" igen.
+**Jag råkade ta bort en commit för mycket med "git reset --hard HEAD~1", detta gjorde att även min patchfil försvann. Jag lyckedes göra en ny patchfil från rflog eftersom commiten som patchfilen representerade låg kvar där. Jag gjorde detta  med git format-patch -1 6b48d00 -o patches/ efter att ja gjort "mkdir patches" igen.**
 
 Vad skillnaden är mellan "git am" och "git apply".
 
